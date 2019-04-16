@@ -1,10 +1,10 @@
 html {
-font-family: 'Merriweather', serif;
-background-color: #f2f2f2;
+  font-family: Merriweather, serif;
+  background-color: #f2f2f2;
 }
 
 table {
-border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 th, td {
@@ -13,5 +13,34 @@ th, td {
 
 td {
   vertical-align: top;
-  text-align: right;
+  width: 10em;
+  height: 9.7em;
+}
+
+.vostok, .kosmos, .india, .explorer {
+  border: 2px solid #333;
+  color: #666;
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+.remember {
+  border: 2px solid #991919;
+  color: #b92828;
+  background-color: #f2bcbc;
+  border-radius: 8px;
+}
+
+.surtsey, .robert {
+  border: 2px solid #51603f;
+  color: #6b7e54;
+  background-color: #d1e0bf;
+  border-radius: 8px;
+}
+
+.aldous, .who {
+  border: 2px solid #38448e;
+  color: #1d38da;
+  background-color: #d2d6f0;
+  border-radius: 8px;
 }
